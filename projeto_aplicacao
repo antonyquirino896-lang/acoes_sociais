@@ -1,1 +1,167 @@
+ Proposta de Desenvolvimento de Sistema para Ações Sociais na Escola
+ Disciplina: Inovação Social e Científica
+1. Identificação do Grupo
+Tema: Ações Sociais
+Integrantes: Antony Quirino, Diogo, João Pedro
 
+2. Introdução
+
+O desenvolvimento de um sistema para ações sociais na escola tem como objetivo melhorar a organização das
+informações e facilitar o registro de problemas e necessidades do ambiente escolar. Para isso, será utilizado um
+banco de dados responsável por armazenar, organizar e controlar todas as informações registradas no sistema.
+O sistema ajudará a escola a identificar problemas, acompanhar soluções e organizar ações de melhoria de
+forma mais eficiente. 
+
+3. Objetivo do Sistema
+
+O sistema terá como finalidade:
+Registrar problemas encontrados na escola;
+Organizar informações escolares;
+Controlar ações sociais e melhorias;
+Armazenar dados com segurança;
+Facilitar consultas e geração de relatórios.
+
+4. Funcionamento do Sistema
+
+O funcionamento do sistema ocorrerá de forma simples e organizada.
+
+1. O usuário realizará o cadastro no sistema;
+2. Após o login, poderá registrar problemas encontrados na escola;
+3. As informações serão armazenadas no banco de dados;
+4. A coordenação ou responsáveis poderão visualizar os registros;
+5. O sistema permitirá cadastrar possíveis soluções;
+6. O andamento das ações poderá ser atualizado;
+7. Relatórios poderão ser gerados para acompanhamento das melhorias realizadas.
+Exemplos de registros:
+Problemas de limpeza;
+Falta de materiais;
+Necessidade de manutenção;
+Sugestões de melhorias;
+Ações sociais realizadas na escola.
+
+5. Banco de Dados
+
+O sistema utilizará o banco de dados MySQL, responsável por armazenar todas as informações do sistema.
+O banco de dados permitirá:
+Organização das informações;
+Armazenamento seguro;
+Controle dos registros;
+Facilidade de consultas;
+Geração de relatórios.
+
+6. Componentes do Banco de Dados
+
+Tabelas
+As tabelas armazenam as informações do sistema de forma organizada.
+Tabela Usuários
+Responsável pelo cadastro de alunos, professores e funcionários.
+Campos:
+ID
+Nome
+Turma
+Email
+Tipo de usuário.
+Tabela Problemas
+Responsável pelo registro dos problemas encontrados na escola.
+Campos:
+ID do problema
+Descrição
+Local
+Data
+Status.
+Tabela Soluções
+Responsável pelas soluções cadastradas no sistema.
+Campos:
+ID da solução
+Problema relacionado
+Descrição da solução
+Responsável
+Data da ação.
+
+7. Campos
+
+Os campos representam as informações armazenadas nas tabelas.
+Exemplos:
+Nome;
+Data;
+Descrição;
+Local;
+Status.
+Cada campo possui uma função específica no sistema.
+
+8. Público-Alvo
+
+O sistema será voltado para toda a comunidade escolar, principalmente:
+Alunos;
+Professores;
+Coordenação escolar;
+Funcionários da escola.
+Os alunos poderão registrar problemas e sugestões de melhorias. Os professores e funcionários poderão
+acompanhar as ocorrências registradas, enquanto a coordenação terá acesso às informações para organizar
+soluções e acompanhar as ações realizadas.
+
+9. Registros
+
+Os registros representam os dados cadastrados dentro das tabelas.
+Exemplo:
+Um problema como “falta de ventilador na sala” será salvo como um registro na tabela de problemas.
+
+10. Chave Primária
+
+A chave primária identifica cada registro de forma única.
+Exemplos:
+ID do usuário;
+ID do problema.
+Isso evita duplicação de informações.
+
+11. Chave Estrangeira
+
+A chave estrangeira cria ligação entre tabelas.
+Exemplo:
+O usuário que registrou um problema poderá ser relacionado ao registro da ocorrência.
+
+12. Relacionamento entre Tabelas
+
+Os relacionamentos permitem conectar informações do sistema.
+Exemplo:
+Um usuário pode registrar vários problemas;
+Um problema pode possuir várias soluções.
+
+13. Consultas
+
+As consultas permitem buscar informações armazenadas no banco de dados.
+Exemplos:
+Consultar problemas registrados;
+Verificar ações concluídas;
+Buscar registros por data ou local.
+
+14. Segurança dos Dados
+
+O banco de dados garantirá maior segurança através de:
+Controle de acesso;
+Organização das informações;
+Proteção dos registros;
+Armazenamento seguro.
+
+15. Benefícios do Sistema
+
+O sistema proporcionará:
+Melhor organização escolar;
+Registro rápido de problemas;
+Controle das ações realizadas;
+Facilidade na geração de relatórios;
+Melhor comunicação dentro da escola;
+Acompanhamento das melhorias realizadas.
+
+16. Recurso utilizado
+
+MySQL
+SQL
+
+17. Conclusão
+
+A utilização de banco de dados no sistema de ações sociais escolares permitirá organizar,
+armazenar e controlar informações de forma eficiente.
+Com o uso do MySQL e dos componentes do banco de dados, será possível desenvolver um
+sistema capaz de registrar problemas, acompanhar soluções e auxiliar a escola na organização das
+ações e melhorias realizadas no ambiente escolar.
